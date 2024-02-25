@@ -1,0 +1,14 @@
+.multiply-container {
+  display: flex;
+  position: relative;
+}
+.multiply-multiply {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.multiply-root-class-name {
+  top: 16px;
+  left: 1236px;
+  position: absolute;
+}
