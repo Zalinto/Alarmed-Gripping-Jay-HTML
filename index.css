@@ -1151,7 +1151,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.home-navbar {
+.page1-navbar {
   top: 0px;
   left: 0px;
   width: 1440px;
@@ -1165,7 +1165,7 @@
   border-width: 0 0 1px;
   background-color: rgba(242, 242, 242, 0.800000011920929);
 }
-.home-header {
+.page1-header {
   top: 24px;
   left: 206px;
   width: 1073.70556640625px;
@@ -1175,25 +1175,26 @@
   align-items: flex-start;
   flex-shrink: 1;
 }
-.home-text148 {
+.page1-text100 {
   top: 11px;
-  color: var(--dl-color-gray-900);
+  color: #212121;
   width: 110px;
   height: auto;
   position: absolute;
   font-size: 24px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 30px;
   font-stretch: normal;
   text-decoration: none;
 }
-.home-button {
+.page1-button {
   top: 0px;
   left: 924.70556640625px;
   width: 149px;
+  height: 52px;
   display: flex;
   padding: 12px 22px;
   position: absolute;
@@ -1203,19 +1204,20 @@
   justify-content: center;
   background-color: rgba(55, 152, 248, 1);
 }
-.home-text150 {
+.page1-text102 {
   color: rgba(255, 255, 255, 1);
   height: auto;
   font-size: 20px;
-  font-style: Bold;
-  text-align: right;
-  font-family: Proxima Nova;
+  font-style: bold;
+  text-align: center;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 28px;
   font-stretch: normal;
   text-decoration: none;
+  white-space: nowrap; /* Ensures text stays on one line */
 }
-.home-frame5 {
+.page1-frame5 {
   gap: 30px;
   top: 14px;
   left: 160.432861328125px;
@@ -1225,58 +1227,60 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.home-product {
+.page1-product {
   gap: 4px;
   display: flex;
   align-items: flex-start;
 }
-.home-text152 {
-  color: var(--dl-color-gray-900);
+.page1-text104 {
+  color: #212121;
   height: auto;
   font-size: 24px;
   font-style: Regular;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 400;
   line-height: 24px;
   font-stretch: normal;
   text-decoration: none;
 }
-.home-frame3 {
+.page1-frame3 {
   gap: 4px;
   display: flex;
   align-items: flex-start;
 }
-.home-text154 {
-  color: var(--dl-color-gray-900);
+.page1-text106 {
+  color: #212121;
   height: auto;
   font-size: 24px;
   font-style: Regular;
+  width: 137px;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 400;
   line-height: 24px;
   font-stretch: normal;
   text-decoration: none;
 }
-.home-frame4 {
+.page1-frame4 {
   gap: 4px;
   display: flex;
   align-items: flex-start;
 }
-.home-text156 {
-  color: var(--dl-color-gray-900);
+.page1-text108 {
+  color: #212121;
   height: auto;
   font-size: 24px;
+  width: 163px;
   font-style: Regular;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 400;
   line-height: 24px;
   font-stretch: normal;
   text-decoration: none;
 }
-.home-chevrondown {
+.page1-chevrondown {
   width: 24px;
   height: 24px;
   display: flex;
@@ -1285,7 +1289,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.home-personologo {
+.page1-personologo {
   top: 29px;
   left: 160px;
   width: 42px;
