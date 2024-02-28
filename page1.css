@@ -329,7 +329,7 @@
   font-size: 60px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 135.0000023841858%;
   font-stretch: normal;
@@ -345,7 +345,7 @@
   padding: 16px;
   position: absolute;
   font-size: 20px;
-  text-align: right;
+  text-align: left;
   align-items: center;
   flex-shrink: 0;
   font-family: Roboto;
@@ -376,7 +376,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: right;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 28px;
   font-stretch: normal;
@@ -421,7 +421,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: right;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 24px;
   font-stretch: normal;
@@ -448,7 +448,7 @@
   font-size: 24px;
   font-style: Bold;
   text-align: center;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 28px;
   font-stretch: normal;
@@ -486,7 +486,7 @@
   font-size: 60px;
   font-style: Bold;
   text-align: center;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 62px;
   font-stretch: normal;
@@ -501,7 +501,7 @@
   font-size: 24px;
   font-style: Regular;
   text-align: center;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 400;
   line-height: 62px;
   font-stretch: normal;
@@ -529,7 +529,7 @@
   font-size: 60px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: normal;
   font-stretch: normal;
@@ -544,7 +544,7 @@
   font-size: 24px;
   font-style: Regular;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -570,10 +570,10 @@
   padding: 16px;
   position: absolute;
   font-size: 20px;
-  text-align: right;
+  text-align: left;
   align-items: center;
   flex-shrink: 0;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 400;
   border-color: rgba(55, 152, 248, 1);
   border-style: solid;
@@ -583,9 +583,9 @@
 .page1-button-large1 {
   gap: 8px;
   top: 0px;
-  left: 516px;
+  left: 550px;
   width: 233px;
-  height: 56px;
+  height: 59px;
   display: flex;
   padding: 16px;
   position: absolute;
@@ -602,7 +602,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: right;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 28px;
   font-stretch: normal;
@@ -740,7 +740,7 @@
   font-size: 24px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -776,7 +776,7 @@
   font-size: 24px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -805,7 +805,7 @@
   font-size: 24px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -835,13 +835,13 @@
   top: 30px;
   left: 30px;
   color: rgba(0, 0, 0, 1);
-  width: 425px;
+  width: 430px;
   height: auto;
   position: absolute;
   font-size: 24px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -877,7 +877,7 @@
   font-size: 24px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -919,7 +919,7 @@
   font-size: 24px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -942,7 +942,7 @@
   font-size: 60px;
   font-style: Bold;
   text-align: center;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 62px;
   font-stretch: normal;
@@ -966,7 +966,7 @@
   font-size: 60px;
   font-style: Bold;
   text-align: center;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -1004,7 +1004,7 @@
   font-size: 20px;
   font-style: Regular;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 400;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -1081,7 +1081,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -1096,7 +1096,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -1124,7 +1124,7 @@
   font-size: 20px;
   font-style: Regular;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 400;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -1159,7 +1159,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -1174,7 +1174,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -1202,7 +1202,7 @@
   font-size: 20px;
   font-style: Regular;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 400;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -1251,7 +1251,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -1266,7 +1266,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -1294,7 +1294,7 @@
   font-size: 20px;
   font-style: Regular;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 400;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -1342,7 +1342,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -1357,7 +1357,7 @@
   font-size: 20px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -1386,7 +1386,7 @@
   font-size: 24px;
   font-style: Regular;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 400;
   line-height: 150%;
   font-stretch: normal;
@@ -1401,7 +1401,7 @@
   font-size: 24px;
   font-style: Regular;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 400;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -1474,14 +1474,14 @@
 }
 .page1-text100 {
   top: 11px;
-  color: var(--dl-color-gray-900);
+  color: #212121;
   width: 110px;
   height: auto;
   position: absolute;
   font-size: 24px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 30px;
   font-stretch: normal;
@@ -1491,6 +1491,7 @@
   top: 0px;
   left: 924.70556640625px;
   width: 149px;
+  height: 52px;
   display: flex;
   padding: 12px 22px;
   position: absolute;
@@ -1504,13 +1505,14 @@
   color: rgba(255, 255, 255, 1);
   height: auto;
   font-size: 20px;
-  font-style: Bold;
-  text-align: right;
-  font-family: Proxima Nova;
+  font-style: bold;
+  text-align: center;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 28px;
   font-stretch: normal;
   text-decoration: none;
+  white-space: nowrap; /* Ensures text stays on one line */
 }
 .page1-frame5 {
   gap: 30px;
@@ -1528,12 +1530,12 @@
   align-items: flex-start;
 }
 .page1-text104 {
-  color: var(--dl-color-gray-900);
+  color: #212121;
   height: auto;
   font-size: 24px;
   font-style: Regular;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 400;
   line-height: 24px;
   font-stretch: normal;
@@ -1545,12 +1547,12 @@
   align-items: flex-start;
 }
 .page1-text106 {
-  color: var(--dl-color-gray-900);
+  color: #212121;
   height: auto;
   font-size: 24px;
   font-style: Regular;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 400;
   line-height: 24px;
   font-stretch: normal;
@@ -1562,12 +1564,12 @@
   align-items: flex-start;
 }
 .page1-text108 {
-  color: var(--dl-color-gray-900);
+  color: #212121;
   height: auto;
   font-size: 24px;
   font-style: Regular;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 400;
   line-height: 24px;
   font-stretch: normal;
