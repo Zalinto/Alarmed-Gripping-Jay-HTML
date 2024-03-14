@@ -947,6 +947,8 @@
   line-height: 62px;
   font-stretch: normal;
   text-decoration: none;
+  top: -100%;
+  width: 600px;
 }
 .page1-content3 {
   top: 2844px;
