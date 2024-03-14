@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Alarmed Gripping Jay</title>
-    <meta property="og:title" content="Alarmed Gripping Jay" />
+    <title>Home Page - Product</title>
+    <meta property="og:title" content="Home Page - Product" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -656,18 +656,31 @@
             src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/cdfb6075-d866-4093-9895-f5f13858fb5b/8ad46529-1fa0-42a1-9a12-ca712ff71e0b?org_if_sml=1120227&amp;force_format=original"
             class="home-image32"
           />
-          <div class="home-banner">
-            <span class="home-text146">
+
+          <div class="page-ad" id="banner">
+            <span class="page-ad-text">
               <span>COMING SOON ON KICKSTARTER | 60% Off Early Bird</span>
             </span>
-            <div class="multiply-container multiply-root-class-name">
-              <img
-                alt="multiplyI397"
-                src="public/external/multiplyi397-dw36.svg"
-                class="multiply-multiply"
-              />
-            </div>
+            <img
+              alt="multiplyI257"
+              src="public/external/multiplyi257-9sqo.svg"
+              class="page-multiply"
+              id="image"
+            />
           </div>
+
+          <script>
+            // Get reference to the image and banner
+            const image = document.getElementById('image');
+            const banner = document.getElementById('banner');
+          
+            // Add click event listener to the image
+            image.addEventListener('click', function() {
+              // Hide the banner when the image is clicked
+              banner.style.display = 'none';
+            });
+          </script>
+
           <div class="page1-navbar">
             <div class="page1-header">
               <a href="index.html" class="page1-text100">

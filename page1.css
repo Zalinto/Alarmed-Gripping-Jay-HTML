@@ -427,7 +427,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.page1-banner {
+.page-ad {
   top: 100px;
   left: 0px;
   width: 1440px;
@@ -439,7 +439,7 @@
   flex-shrink: 0;
   background-color: rgba(20, 55, 72, 1);
 }
-.page1-text008 {
+.page-ad-text {
   top: 14px;
   left: 425px;
   color: rgba(255, 255, 255, 1);
@@ -454,7 +454,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.page1-multiply {
+.page-multiply {
   top: 16px;
   left: 1236px;
   width: 24px;
@@ -652,7 +652,7 @@
   font-size: 24px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -681,7 +681,7 @@
   font-size: 24px;
   font-style: Bold;
   text-align: left;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -1428,6 +1428,20 @@
   position: absolute;
 }
 .page1-picturecarousel {
+  top: 3135px;
+  left: 800px;
+  width: 480px;
+  height: 320px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 4px 8px 24px 0px rgba(0, 0, 0, 0.20000000298023224) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background-color: rgba(176, 176, 176, 1);
+}
+#carouselExampleSlidesOnly{
   top: 3135px;
   left: 800px;
   width: 480px;

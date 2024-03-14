@@ -2,11 +2,7 @@
   display: flex;
   position: relative;
 }
-.multiply-multiply {
-  width: 24px;
-  height: 24px;
-  position: relative;
-}
+
 .multiply-root-class-name {
   top: 16px;
   left: 1236px;
@@ -1124,7 +1120,8 @@
   height: 264px;
   position: absolute;
 }
-.home-banner {
+
+.page-ad {
   top: 100px;
   left: 0px;
   width: 1440px;
@@ -1136,7 +1133,7 @@
   flex-shrink: 0;
   background-color: rgba(20, 55, 72, 1);
 }
-.home-text146 {
+.page-ad-text {
   top: 14px;
   left: 425px;
   color: rgba(255, 255, 255, 1);
@@ -1145,12 +1142,21 @@
   font-size: 24px;
   font-style: Bold;
   text-align: center;
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, sans-serif;
   font-weight: 700;
   line-height: 28px;
   font-stretch: normal;
   text-decoration: none;
 }
+
+.page-multiply {
+  top: 16px;
+  left: 1236px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+
 .page1-navbar {
   top: 0px;
   left: 0px;

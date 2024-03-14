@@ -117,7 +117,7 @@
   height: 204px;
   position: absolute;
 }
-.page-banner {
+.page-ad {
   top: 100px;
   left: 0px;
   width: 1440px;
@@ -129,7 +129,7 @@
   flex-shrink: 0;
   background-color: rgba(20, 55, 72, 1);
 }
-.page-text {
+.page-ad-text {
   top: 14px;
   left: 425px;
   color: rgba(255, 255, 255, 1);

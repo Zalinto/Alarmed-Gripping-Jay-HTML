@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Page - Alarmed Gripping Jay</title>
-    <meta property="og:title" content="Page - Alarmed Gripping Jay" />
+    <title>How it Works</title>
+    <meta property="og:title" content="How it Works" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -178,16 +178,31 @@
               />
             </div>
           </div>
-          <div class="page-banner">
-            <span class="page-text">
+
+          <div class="page-ad" id="banner">
+            <span class="page-ad-text">
               <span>COMING SOON ON KICKSTARTER | 60% Off Early Bird</span>
             </span>
             <img
               alt="multiplyI257"
               src="public/external/multiplyi257-9sqo.svg"
               class="page-multiply"
+              id="image"
             />
           </div>
+
+          <script>
+            // Get reference to the image and banner
+            const image = document.getElementById('image');
+            const banner = document.getElementById('banner');
+          
+            // Add click event listener to the image
+            image.addEventListener('click', function() {
+              // Hide the banner when the image is clicked
+              banner.style.display = 'none';
+            });
+          </script>
+
           <div class="page-content">
             <span class="page-text02"><span>Simple and Easy</span></span>
             <span class="page-text04">
