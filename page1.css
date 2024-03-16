@@ -1,3 +1,112 @@
+/* Reset Style Sheet */
+html {
+  line-height: 1.15;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+}
+
+p,
+li,
+ul,
+pre,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+blockquote,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: transparent;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focus,
+[type="button"]:-moz-focus,
+[type="reset"]:-moz-focus,
+[type="submit"]:-moz-focus {
+  outline: 1px dotted ButtonText;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+input {
+  padding: 2px 4px;
+}
+
+img {
+  display: block;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Default Style Sheet */
+html {
+  font-family: Inter;
+  font-size: 16px;
+}
+
+body {
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.15;
+  color: var(--dl-color-gray-black);
+  background-color: var(--dl-color-gray-white);
+}
+
 .w-100 {
   width: 100% !important;
 }
@@ -30,7 +139,7 @@
   color:black !important;
 }
 
-.page1-container {
+.our-customer-page {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -38,7 +147,7 @@
   align-items: center;
   flex-direction: column;
 }
-.page1-personolandingpageoption2ourcustomers3 {
+.customer-landing-page {
   width: 100%;
   height: 5175px;
   display: flex;
@@ -72,7 +181,7 @@
   border-radius: 24px;
   background-color: rgba(255, 255, 255, 1);
 }
-.page1-frame37 {
+.sleep-track-2-frame {
   top: 0px;
   left: -10px;
   width: 398px;
@@ -86,13 +195,14 @@
   background-color: rgba(255, 255, 255, 1);
 }
 
-.page1-chip12 {
+.sleep-tracker-2 {
   top: 0px;
   left: -10px;
   height: 246px;
   position: absolute;
 }
-.page1-frame38 {
+
+.pillow-frame {
   top: 123px;
   left: 644px;
   width: 256px;
@@ -105,7 +215,7 @@
   border-radius: 24px;
   background-color: rgba(237, 237, 237, 1);
 }
-.page1-comforteasetechimage1 {
+.pillow-container {
   top: 0px;
   left: 0px;
   width: 256px;
@@ -125,14 +235,14 @@
   height: 367px;
   position: absolute;
 }
-.page1-image2 {
+.pillow-image {
   top: 2.842170943040401e-14px;
   left: 0px;
   width: 285px;
   height: 192px;
   position: absolute;
 }
-.page1-frame40 {
+.sleep-tracker-frame {
   top: 123px;
   left: 355px;
   width: 253px;
@@ -170,70 +280,8 @@
   border-radius: 16px;
   background-color: rgba(255, 255, 255, 1);
 }
-.page1-ellipse14 {
-  top: 197px;
-  left: -36px;
-  width: 285px;
-  height: 177px;
-  position: absolute;
-}
-.page1-ellipse8 {
-  top: 135px;
-  left: 190px;
-  width: 354px;
-  height: 220px;
-  position: absolute;
-}
-.page1-ellipse9 {
-  top: -254px;
-  left: 297px;
-  width: 754px;
-  height: 469px;
-  position: absolute;
-}
-.page1-ellipse11 {
-  top: -80px;
-  left: -332px;
-  width: 522px;
-  height: 325px;
-  position: absolute;
-}
-.page1-ellipse16 {
-  top: 431.2825622558594px;
-  left: -76px;
-  width: 530px;
-  height: 256px;
-  position: absolute;
-}
-.page1-ellipse12 {
-  top: 330px;
-  left: 190px;
-  width: 187px;
-  height: 190px;
-  position: absolute;
-}
-.page1-ellipse13 {
-  top: 401px;
-  left: 414px;
-  width: 365px;
-  height: 176px;
-  position: absolute;
-}
-.page1-ellipse15 {
-  top: 460.43719482421875px;
-  left: 367px;
-  width: 328px;
-  height: 204px;
-  position: absolute;
-}
-.page1-ellipse17 {
-  top: 497.43719482421875px;
-  left: 249px;
-  width: 328px;
-  height: 204px;
-  position: absolute;
-}
-.page1-group3132 {
+
+.sleept-tracker-1 {
   width: 255px;
   height: 176px;
   position: absolute;
@@ -277,13 +325,7 @@
   height: 828px;
   position: absolute;
 }
-.page1-rectangle5 {
-  top: -1px;
-  left: 0px;
-  width: 1440px;
-  height: 753px;
-  position: absolute;
-}
+
 .page1-content {
   top: 295px;
   left: 159px;
@@ -448,7 +490,7 @@
   height: 24px;
   position: absolute;
 }
-.page1-image23 {
+.footer-image {
   top: 4865px;
   left: 0px;
   width: 1440px;
