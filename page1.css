@@ -1,6 +1,11 @@
 .w-100 {
+  width: 100% !important;
+}
+
+.w-101 {
   width: 118% !important;
 }
+
 
  /* Hide scrollbar */
 .d-flex.flex-row.flex-nowrap {
@@ -44,10 +49,9 @@
   background-color: rgba(255, 255, 255, 1);
 }
 .page1-frame36 {
-  top: 100px;
   left: 0px;
   width: 1440px;
-  height: 752px;
+  height: 835px;
   display: flex;
   overflow: hidden;
   position: absolute;
@@ -455,7 +459,6 @@
   text-decoration: none;
 }
 .page-ad {
-  top: 100px;
   left: 0px;
   width: 1440px;
   height: 56px;
@@ -1503,19 +1506,19 @@
   position: absolute;
 }
 .navbar {
-  top: 0px;
-  left: 0px;
-  width: 1440px;
+  position: sticky; /* Make the navbar sticky */
+  top: 0; /* Stick it to the top of the viewport */
+  width: 100%; /* Make it full width */
   height: 100px;
   display: flex;
-  position: absolute;
   align-items: flex-start;
   flex-shrink: 0;
   border-color: rgba(202, 202, 202, 1);
   border-style: solid;
   border-width: 0 0 1px;
-  background-color: rgba(242, 242, 242, 0.800000011920929);
+  background-color: rgba(242, 242, 242, 0.8);
 }
+
 .page1-header {
   top: 24px;
   left: 206px;
