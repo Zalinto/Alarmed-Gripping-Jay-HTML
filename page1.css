@@ -1,3 +1,30 @@
+.w-100 {
+  width: 118% !important;
+}
+
+ /* Hide scrollbar */
+.d-flex.flex-row.flex-nowrap {
+  overflow-x: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.d-flex.flex-row.flex-nowrap::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+/* CARDS */
+#cards {
+  min-width: 576px; 
+  min-height: 303px; 
+  box-shadow: 2px 6px 12px 0px rgba(0, 0, 0, 0.1); 
+  border-radius: 16px
+}
+
+#card-color {
+  color:black !important;
+}
+
 .page1-container {
   width: 100%;
   display: flex;
@@ -508,7 +535,7 @@
   text-decoration: none;
 }
 .page1-frame50 {
-  top: 4255px;
+  top: 4222px;
   left: 160px;
   width: 1120px;
   height: 430px;
@@ -974,6 +1001,17 @@
   font-stretch: normal;
   text-decoration: none;
 }
+.horizontal-slide-component {
+  gap: 30px;
+  top: 3772px;
+  left: 160px;
+  width: 1182px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
 .page1-frame20 {
   gap: 30px;
   top: 3772px;
