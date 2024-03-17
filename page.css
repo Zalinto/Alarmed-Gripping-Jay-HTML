@@ -112,6 +112,7 @@ body {
     border-style: solid;
     border-width: 0 0 1px;
     background-color: rgba(242, 242, 242, 0.8);
+    z-index: 1000; /* Adjust the z-index as needed */
   }
 
   .page1-header {
@@ -883,20 +884,6 @@ body {
   text-decoration: none;
 }
 
-.page1-navbar {
-  top: 0px;
-  left: 0px;
-  width: 1440px;
-  height: 100px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: rgba(202, 202, 202, 1);
-  border-style: solid;
-  border-width: 0 0 1px;
-  background-color: rgba(242, 242, 242, 0.800000011920929);
-}
 .page1-header {
   top: 24px;
   left: 206px;
