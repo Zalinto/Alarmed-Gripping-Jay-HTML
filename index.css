@@ -1,3 +1,97 @@
+/* reset-style-sheet */
+html {
+  line-height: 1.15;
+}
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+}
+p,
+li,
+ul,
+pre,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+blockquote,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+button {
+  background-color: transparent;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focus,
+[type="button"]:-moz-focus,
+[type="reset"]:-moz-focus,
+[type="submit"]:-moz-focus {
+  outline: 1px dotted ButtonText;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+input {
+  padding: 2px 4px;
+}
+img {
+  display: block;
+}
+
+/* default-style-sheet */
+html {
+  font-family: Inter;
+  font-size: 16px;
+}
+
+body {
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.15;
+  color: var(--dl-color-gray-black);
+  background-color: var(--dl-color-gray-white);
+}
+
+
 .multiply-container {
   display: flex;
   position: relative;
@@ -61,7 +155,7 @@
   position: absolute;
 }
 .home-content {
-  top: 261px;
+  top: 169px;
   left: 160px;
   width: 736px;
   height: 274px;
@@ -71,7 +165,7 @@
   flex-shrink: 1;
 }
 .home-text {
-  top: 246px;
+  top: 250px;
   color: rgba(85, 98, 104, 1);
   height: auto;
   position: absolute;
@@ -86,7 +180,7 @@
 }
 .home-text002 {
   color: rgba(24, 24, 27, 1);
-  width: 736px;
+  width: 771px;
   height: auto;
   position: absolute;
   font-size: 60px;
@@ -124,7 +218,7 @@
 }
 .home-input-field {
   gap: 8px;
-  top: 565px;
+  top: 480px;
   left: 160px;
   color: rgba(85, 98, 104, 1);
   width: 352px;
@@ -144,7 +238,7 @@
 }
 .home-button-large {
   gap: 8px;
-  top: 645px;
+  top: 560px;
   left: 160px;
   width: 352px;
   display: flex;
@@ -736,7 +830,7 @@
   width: 54px;
   height: 54px;
 }
-.home-frame49 {
+.waitlist-section {
   width: 1120px;
   height: 430px;
   display: flex;
@@ -787,6 +881,15 @@
   align-items: flex-start;
   flex-shrink: 1;
 }
+
+.home-group8780 input[type="text"] {
+  background-color: rgba(34, 34, 34, 1);
+}
+
+.home-group8780 input[type="text"]::placeholder {
+  color: rgb(55, 152, 248);
+}
+
 .home-input-field1 {
   gap: 8px;
   top: 0px;
@@ -797,7 +900,7 @@
   padding: 16px;
   position: absolute;
   font-size: 20px;
-  text-align: right;
+  text-align: left;
   align-items: center;
   flex-shrink: 0;
   font-family: Proxima Nova, sans-serif;
@@ -809,14 +912,14 @@
 }
 .home-button-large1 {
   gap: 8px;
-  top: 0px;
-  left: 516px;
+  top: 1px;
+  left: 514px;
   width: 233px;
   height: 56px;
   display: flex;
   padding: 16px;
   position: absolute;
-  box-shadow: 4px 8px 16px 0px rgba(2, 78, 171, 0.20000000298023224) ;
+  box-shadow: 4px 8px 16px 0px rgba(2, 78, 171, 0.2);
   align-items: center;
   flex-shrink: 0;
   border-radius: 0 8px 8px 0;
@@ -1122,7 +1225,6 @@
 }
 
 .page-ad {
-  top: 100px;
   left: 0px;
   width: 1440px;
   height: 56px;
@@ -1132,7 +1234,7 @@
   align-items: flex-start;
   flex-shrink: 0;
   background-color: rgba(20, 55, 72, 1);
-}
+} 
 .page-ad-text {
   top: 14px;
   left: 425px;
@@ -1157,20 +1259,22 @@
   position: absolute;
 }
 
-.page1-navbar {
-  top: 0px;
-  left: 0px;
-  width: 1440px;
+/* NAVBAR */
+.navbar {
+  position: sticky; /* Make the navbar sticky */
+  top: 0; /* Stick it to the top of the viewport */
+  width: 100%; /* Make it full width */
   height: 100px;
   display: flex;
-  position: absolute;
   align-items: flex-start;
   flex-shrink: 0;
   border-color: rgba(202, 202, 202, 1);
   border-style: solid;
   border-width: 0 0 1px;
-  background-color: rgba(242, 242, 242, 0.800000011920929);
+  background-color: rgba(242, 242, 242, 0.8);
+  z-index: 1000; /* Adjust the z-index as needed */
 }
+
 .page1-header {
   top: 24px;
   left: 206px;
