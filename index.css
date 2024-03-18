@@ -1,3 +1,64 @@
+.sAccordion {
+  height:1050px;
+}
+#accordion1 {
+  top: -60px;
+}
+
+#accordion2 {
+  width: 1128px;
+  font-size: 32px !important;
+}
+
+.w-100 {
+  width: 611px !important;
+}
+.card {
+  width: 480px;
+  border-radius: 10px;
+  border-color: rgba(1, 77, 171, 1);
+  margin-bottom: 40px;
+}
+
+.icon-container {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px; /* Adjust as needed */
+}
+
+.home-text134 {
+  width: 1128px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card-header {
+  background-color: transparent !important;
+  padding: 1.5rem 1rem !important;
+  border-bottom: none;
+  height: 92px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-body {
+  padding: 2rem 5rem !important;
+  font-family: Proxima Nova, sans-serif !important;
+  font-size: 24px;
+}
+
+.w-101 {
+  width: 743px !important;
+  height: 580px !important;
+}
+
+.goals-bg {
+  width:564px;
+  height: 621px;
+}
+
 /* reset-style-sheet */
 html {
   line-height: 1.15;
@@ -113,7 +174,7 @@ body {
 }
 .home-personolandingpageoption2product {
   width: 100%;
-  height: 5898px;
+  height: 5480px;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -123,7 +184,7 @@ body {
 }
 .home-intro {
   top: 156px;
-  left: 693px;
+  left: 789px;
   width: 649px;
   height: 705px;
   display: flex;
@@ -165,7 +226,7 @@ body {
   flex-shrink: 1;
 }
 .home-text {
-  top: 250px;
+  top: 225px;
   color: rgba(85, 98, 104, 1);
   height: auto;
   position: absolute;
@@ -181,6 +242,7 @@ body {
 .home-text002 {
   color: rgba(24, 24, 27, 1);
   width: 771px;
+  top: -17px;
   height: auto;
   position: absolute;
   font-size: 60px;
@@ -204,6 +266,7 @@ body {
 }
 .home-text004 {
   color: rgba(24, 24, 27, 1);
+  top: -60px;
   width: 992px;
   height: auto;
   position: absolute;
@@ -218,7 +281,7 @@ body {
 }
 .home-input-field {
   gap: 8px;
-  top: 480px;
+  top: 445px;
   left: 160px;
   color: rgba(85, 98, 104, 1);
   width: 352px;
@@ -238,7 +301,7 @@ body {
 }
 .home-button-large {
   gap: 8px;
-  top: 560px;
+  top: 525px;
   left: 160px;
   width: 352px;
   display: flex;
@@ -275,6 +338,7 @@ body {
 }
 .home-text008 {
   color: rgba(24, 24, 27, 1);
+  top: -90px;
   width: 352px;
   height: auto;
   position: absolute;
@@ -288,7 +352,7 @@ body {
   text-decoration: none;
 }
 .home-text010 {
-  top: 134px;
+  top: 17px;
   color: rgba(0, 0, 0, 1);
   width: 349px;
   height: auto;
@@ -303,7 +367,7 @@ body {
   text-decoration: none;
 }
 .home-comforteasetechimage1 {
-  top: 1006px;
+  top: 935px;
   left: 160px;
   width: 352px;
   height: 376px;
@@ -341,6 +405,7 @@ body {
 }
 .home-text012 {
   color: rgba(24, 24, 27, 1);
+  top: -90px;
   width: 352px;
   height: auto;
   position: absolute;
@@ -354,7 +419,7 @@ body {
   text-decoration: none;
 }
 .home-text014 {
-  top: 134px;
+  top: 17px;
   color: rgba(0, 0, 0, 1);
   width: 349px;
   height: auto;
@@ -369,7 +434,7 @@ body {
   text-decoration: none;
 }
 .home-comforteasetechimage2 {
-  top: 1006px;
+  top: 935px;
   left: 544px;
   width: 352px;
   height: 376px;
@@ -414,6 +479,7 @@ body {
 }
 .home-text016 {
   color: rgba(24, 24, 27, 1);
+  top: -90px;
   width: 352px;
   height: auto;
   position: absolute;
@@ -427,7 +493,7 @@ body {
   text-decoration: none;
 }
 .home-text021 {
-  top: 134px;
+  top: 17px;
   color: rgba(0, 0, 0, 1);
   width: 349px;
   height: auto;
@@ -442,7 +508,7 @@ body {
   text-decoration: none;
 }
 .home-comforteasetechimage3 {
-  top: 1006px;
+  top: 935px;
   left: 928px;
   width: 352px;
   height: 376px;
@@ -483,21 +549,21 @@ body {
   position: absolute;
 }
 .home-chip11 {
-  top: 1006px;
+  top: 935px;
   left: 839px;
   width: 527px;
   height: 401px;
   position: absolute;
 }
 .home-chip12 {
-  top: 2964px;
+  top: 2940px;
   left: 563px;
   width: 665px;
   height: 506px;
   position: absolute;
 }
 .home-content5 {
-  top: 2914px;
+  top: 2875px;
   left: 397px;
   width: 646px;
   height: 62px;
@@ -508,6 +574,7 @@ body {
 }
 .home-text026 {
   color: rgba(24, 24, 27, 1);
+  width: 700px;
   height: auto;
   position: absolute;
   font-size: 60px;
@@ -520,9 +587,9 @@ body {
   text-decoration: none;
 }
 .home-content6 {
-  top: 1984px;
+  top: 1895px;
   left: 319px;
-  width: 802px;
+  width: 848px;
   height: 62px;
   display: flex;
   position: absolute;
@@ -553,6 +620,7 @@ body {
   flex-shrink: 1;
 }
 .home-text030 {
+  top: -40px;
   color: rgba(24, 24, 27, 1);
   height: auto;
   position: absolute;
@@ -566,7 +634,7 @@ body {
   text-decoration: none;
 }
 .home-text032 {
-  top: 3560px;
+  top: 3512px;
   left: 491px;
   color: rgba(85, 98, 104, 1);
   height: auto;
@@ -581,8 +649,8 @@ body {
   text-decoration: none;
 }
 .home-text034 {
-  top: 2980px;
-  left: 432px;
+  top: 2938px;
+  left: 446px;
   color: rgba(85, 98, 104, 1);
   height: auto;
   position: absolute;
@@ -597,7 +665,7 @@ body {
 }
 .home-frame28 {
   gap: 40px;
-  top: 3662px;
+  top: 3620px;
   left: 156px;
   width: 1128px;
   display: flex;
@@ -831,6 +899,7 @@ body {
   height: 54px;
 }
 .waitlist-section {
+  /* top: 800px; */
   width: 1120px;
   height: 430px;
   display: flex;
@@ -939,8 +1008,8 @@ body {
   text-decoration: none;
 }
 .home-goalssurveysandtracking {
-  top: 2039px;
-  left: 84px;
+  top: -1550px;
+  left: -115px;
   width: 1372px;
   height: 755px;
   display: flex;
@@ -951,7 +1020,7 @@ body {
   background-color: rgba(255, 255, 255, 1);
 }
 .home-frame32 {
-  top: 67px;
+  top: -18px;
   left: 601px;
   width: 576px;
   height: 621px;
@@ -966,7 +1035,7 @@ body {
   top: 18px;
   left: 12px;
   width: 597px;
-  height: 536px;
+  height: 621px;
   display: flex;
   overflow: hidden;
   position: absolute;
@@ -1046,7 +1115,7 @@ body {
   position: absolute;
 }
 .home-frame16 {
-  top: 566px;
+  top: 481px;
   left: 570px;
   width: 214px;
   height: 127px;
@@ -1074,7 +1143,7 @@ body {
   position: absolute;
 }
 .home-frame29 {
-  top: 276px;
+  top: 191px;
   left: 1080px;
   width: 234px;
   height: 213px;
@@ -1139,6 +1208,7 @@ body {
 }
 .home-text133 {
   color: rgba(0, 0, 0, 1);
+  width: 480px;
   height: auto;
   flex-grow: 1;
   font-size: 36px;
@@ -1210,14 +1280,14 @@ body {
   text-decoration: none;
 }
 .home-image23 {
-  top: 5588px;
-  left: 0px;
+  top: 1550px;
+  left: -156px;
   width: 1440px;
   height: 310px;
   position: absolute;
 }
 .home-image32 {
-  top: 3110px;
+  top: 3074px;
   left: 430px;
   width: 269px;
   height: 264px;
