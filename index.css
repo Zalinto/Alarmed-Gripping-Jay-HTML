@@ -1,6 +1,9 @@
 .sAccordion {
   height:1050px;
 }
+#specialText {
+  font-size: 29px !important;
+}
 #accordion1 {
   top: -60px;
 }
@@ -1222,6 +1225,7 @@ body {
 }
 .home-text134 {
   font-weight: 700;
+  font-size: 31px;
 }
 .home-surveys2 {
   gap: 12px;
