@@ -1,6 +1,6 @@
 .bg-screen {
   max-width: 100%;
-  height: auto; /* This ensures the image maintains its aspect ratio */
+  height: 836px; /* This ensures the image maintains its aspect ratio */
   display: block; /* This removes any default inline spacing */
   margin: 0 auto; /* This centers the image horizontally */
 }
@@ -127,7 +127,7 @@ body {
   }
 
 .page-container {
-  width: 101%;
+  width: 100%;
   display: flex;
   overflow: auto;
   min-height: 100vh;
@@ -145,7 +145,7 @@ body {
   background-color: rgba(255, 255, 255, 1);
 }
 .page-frame32 {
-  left: -13px;
+  left: -7px;
   width: 1440px;
   height: 836px;
   display: flex;
@@ -155,7 +155,7 @@ body {
   flex-shrink: 0;
 }
 .page-frame31 {
-  top: 61px;
+  /* top: 61px; */
   left: 13px;
   width: 1431px;
   height: 836px;
